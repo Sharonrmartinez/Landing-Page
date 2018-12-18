@@ -1,0 +1,91 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<style>
+ 
+  #header {
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: fixed;
+ 
+
+
+  }
+  
+  h1 {
+    font-size: 30px;
+    padding-right: 20px;
+  }
+  
+  .nav-link {
+    font-size: 20px;
+  }
+  
+ 
+  
+  
+  .examples {
+    width: 120px;
+   
+  }
+  
+  form{
+  padding: 100px;  
+  }
+  
+  body {
+    
+  background-color: lightblue;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: aqua;
+  }
+ 
+  </style>
+
+
+<main>
+ <header id="header">
+   <img id="header-img" src="https://i.pinimg.com/originals/60/e2/0d/60e20dac54a79ba5f27626f21b05ac1d.jpg"width=100px height=100px>
+  <h1 class="title"> Lily's Designs </h1>
+  <nav id="nav-bar">
+    <a class="nav-link" href="#aboutus">About Us</a> |
+    <a class="nav-link" href="#gallery">Gallery</a> |
+    <a  class="nav-link" href="#prices">Prices</a> |
+  </nav>
+ </header>
+  
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+  <input id="email" type="email" name="email" placeholder="Enter Email Here..." required> 
+  <input id="submit" type="submit" value="Submit">
+  </form>
+  
+  
+  <iframe id="video" width="420" height="315"
+src="https://www.youtube.com/embed/0Zzx8K2T4YA">
+</iframe>
+  
+  
+  <h3 id="aboutus"> About Us: </h3>
+  <p> Lily's Designs has been in business since 2000, creating authentic designs to fit all types of needs.</p>
+  <h3 id="gallery"> Gallery: </h3> 
+  <img class="examples" src="http://www.thesimplestencil.com/images/designs_and_embellishments/186.php?id=665"</img>
+  <img class="examples" src="http://www.clker.com/cliparts/W/0/G/0/b/p/paisley-md.png"</img>
+  <img class="examples" src="http://res.freestockphotos.biz/pictures/6/6287-illustration-of-a-black-abstract-design-pv.png"</img>
+  <h3 id="prices"> Prices: </h3>
+  <p>
+    <ul>
+      <li> $100: Custom Design requiring 20+ hours.</li>
+      <li> $75: Custom Design requiring less than 20 hours. </li>
+      <li> $25: Premade template.</li>
+   </ul>
+  </p>
+  
+  
+  
+  
+  
+</main>
